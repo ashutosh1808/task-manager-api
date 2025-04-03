@@ -1,0 +1,9 @@
+POST http://localhost:8080/tasks
+content-type:application/json
+
+{
+    "task":"do pushups and yoga",
+    "description":"do this, good for health",
+    "status":"active",
+    "dueDate": "2025-01-11T10:00:00Z"
+}
